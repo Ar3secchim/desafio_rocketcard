@@ -1,16 +1,19 @@
-
 html,Body{
     background-color:#0E1218;
     height: 100%;
 }
 
-body{
-    display:grid;
-    /**/
-    place-items:center; 
-}
-
 h1{
     font-size: 1.5rem;
     color: #8257e5;
+}
+
+.card{
+    /*atribuindo grid- passou a se comporta com duas caixas*/
+    display:grid;
+    place-items:center; 
+}
+
+.github{
+    text-decoration: none;
 }
