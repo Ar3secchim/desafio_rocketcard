@@ -1,21 +1,24 @@
 # desafio_rocketcard
 Desafio feito pela Rocktseat apara desenvolver um card que traga as informações da API do Github e tenha um botão que altere a cor do fundo do card.
+
 **Requisitos para o desafio:**
 
-- Consumir API do Github;
-- Ter um botão que altere a cor de fundo;
+[]- Consumir API do Github; 
+[]- Ter um botão que altere a cor de fundo;
+- acrescentei
+[x] efeito do botão 
 
 ***Se desafiar também:***
 
-- Criando um botão para fazer o download do card;
-- Copiar o card no `clipboard` ;
-- Adicionando animação no card;
+[]- Criando um botão para fazer o download do card;
+[]- Copiar o card no `clipboard` ;
+[]- Adicionando animação no card;
 
 - ## **Tipo de fonte:**
 
-font-family: Prompt 
+[x]font-family: Prompt 
 
-Font Weight: 100, 400 e 700
+[x]Font Weight: 100, 400 e 700
 
 Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
 
