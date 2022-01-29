@@ -3,22 +3,27 @@ Desafio feito pela Rocktseat apara desenvolver um card que traga as informaçõe
 
 **Requisitos para o desafio:**
 
-[]- Consumir API do Github; 
-[]- Ter um botão que altere a cor de fundo;
-- acrescentei
-[x] efeito do botão 
+[ ]- Consumir API do Github; 
+[ ]- Ter um botão que altere a cor de fundo;
+
+- Acrescentei
+
+[x]  efeito do botão 
 
 ***Se desafiar também:***
 
-[]- Criando um botão para fazer o download do card;
-[]- Copiar o card no `clipboard` ;
-[]- Adicionando animação no card;
+[ ]- Criando um botão para fazer o download do card;
+
+[ ]- Copiar o card no `clipboard` ;
+
+[ ]- Adicionando animação no card;
+
 
 - ## **Tipo de fonte:**
 
-[x]font-family: Prompt 
+[x] font-family: Prompt 
 
-[x]Font Weight: 100, 400 e 700
+[x] Font Weight: 100, 400 e 700
 
 Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
 
