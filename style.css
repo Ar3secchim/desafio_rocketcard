@@ -57,7 +57,7 @@ main {
 
 .content .container_card{
   display: flex;
-  height: 670px;
+  height: 630px;
   width: 500px; 
   
   background-color: #000000;
@@ -70,7 +70,7 @@ main {
   display: flex;
   flex-direction: column;
 
-  height: 630px;
+  height: 600px;
   width: 400px;
   margin: auto;
   margin-top: 1rem;
@@ -84,9 +84,10 @@ main {
 
 .header_card {
   display: flex;
+  align-content: center;
   gap: 1rem;
-  margin-top: 2rem;
-  margin-left: 2rem;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
 
   color: #f1f1f1;
   font-family: Prompt;
@@ -95,8 +96,12 @@ main {
 }
 
 .header_card img {
+  padding: 2px;
   height: 38px;
   width: 39px;
+
+  border: 1px solid #f1f1f1;
+  border-radius: 50%;
 }
 
 .avatar {
