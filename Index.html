@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" >
     <title>Renara Secchim</title>
+    <script src="/main.js"></script>
   </head>
 
   <body>
@@ -19,7 +20,7 @@
 
       <div class="content">
         <div class="container">
-          <div class="container_card">
+          <div id="backgroundCard" class="container_card">
             <section class="card">
               <div class="header_card">
                   <img class="logo" src="assets/logo.svg" alt="Logo">
@@ -34,14 +35,18 @@
                 <ul>
                     <li class="api_github_itens">
                       <img src="/assets/followers.svg" alt="seguidores">
-                      <h4>Seguidores</h4>
+                      <h4 id="followers"></h4>
+                      <h4>Seguindores</h4>
+
                     <li class="api_github_itens">
                       <img src="/assets/following.svg" alt="seguindo">
+                      <h4 id="following"></h4>
                       <h4>Seguindo</h4>
                     </li>
 
                     <li class="api_github_itens">
                       <img src="/assets/repository.svg" alt="repositório">
+                      <h4 id="public_repos"></h4>
                       <h4>Repositórios</h4>
                     </li>
 
@@ -52,7 +57,7 @@
 
                     <li class="api_github_itens">
                       <img src="/assets/location.svg" alt="localidade">
-                      <h4>Belém</h4>
+                      <h4 id="location">Belém</h4>
                     </li>
 
                 </ul>
@@ -68,14 +73,20 @@
           <div class="container_customizar">
             <div class="customizar">
               <h3>Customizar Rocketcard</h3>
-              <button class=button id="teste">
+              <button class=button id="teste" onclick="test()">
                   <h2>Gerar background</h2>
               </button>
             </div>
+            <div class="container_customizar">
+              <div class="customizar">
+                <button class=button id="teste" >
+                    <a href="/Index.html" download="Rocketcard"><h2>Download Rocketcard</h2></a>
+                </button>
+              </div>
           </div>
        </div>
       </div>
-    </main>
-  
+    </main>    
+   
   </body>
 </html>

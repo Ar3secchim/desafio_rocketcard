@@ -3,8 +3,8 @@ Desafio feito pela Rocktseat apara desenvolver um card que traga as informaçõe
 
 **Requisitos para o desafio:**
 
-[ ]- Consumir API do Github; 
-[ ]- Ter um botão que altere a cor de fundo;
+[x]- Consumir API do Github; 
+[x]- Ter um botão que altere a cor de fundo;
 
 - Acrescentei
 
@@ -12,7 +12,7 @@ Desafio feito pela Rocktseat apara desenvolver um card que traga as informaçõe
 
 ***Se desafiar também:***
 
-[ ]- Criando um botão para fazer o download do card;
+[x]- Criando um botão para fazer o download do card;
 
 [ ]- Copiar o card no `clipboard` ;
 
