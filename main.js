@@ -4,7 +4,7 @@ function getGitHubProfileInfos() {
     fetch(url)
     .then(response => response.json()) //then=promisse é umas promessa que pegar algum valor
     .then(data=> {
-      followers.textContent = data.followers
+      followers.textContent = data.followers 
       following.textContent = data.following
       public_repos.textContent = data.public_repos
       location.textContent = data.location

@@ -1,92 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" >
-    <title>Renara Secchim</title>
-    <script src="/main.js"></script>
-  </head>
 
-  <body>
-      
-    <main>
-      <div class="header">
-        <div class="container">
-         <h1> Compartilhe seu #rocketcard</h1>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Renara Secchim</title>
+  <script src="/main.js"></script>
+</head>
+
+<body>
+
+  <main>
+    <div class="header">
+      <div class="container">
+        <h1> Compartilhe seu #rocketcard</h1>
       </div>
+    </div>
 
-      <div class="content">
-        <div class="container">
-          <div id="backgroundCard" class="container_card">
-            <section class="card">
-              <div class="header_card">
-                  <img class="logo" src="assets/logo.svg" alt="Logo">
-                  <h2>Ar3secchim</h2>
-              </div>
-                
-              <div class="avatar">
-                  <img src="/assets/avatar.png" alt="Avatar">
-              </div>
+    <div class="content">
+      <div class="container">
+        <div id="backgroundCard" class="container_card">
+          <section class="card">
+            <div class="header_card">
+              <img class="logo" src="assets/logo.svg" alt="Logo">
+              <h2>Ar3secchim</h2>
+            </div>
 
-              <div class="api_github">
-                <ul>
-                    <li class="api_github_itens">
-                      <img src="/assets/followers.svg" alt="seguidores">
-                      <h4 id="followers"></h4>
-                      <h4>Seguindores</h4>
+            <div class="avatar">
+              <img src="/assets/avatar.png" alt="Avatar">
+            </div>
 
-                    <li class="api_github_itens">
-                      <img src="/assets/following.svg" alt="seguindo">
-                      <h4 id="following"></h4>
-                      <h4>Seguindo</h4>
-                    </li>
+            <div class="api_github">
+              <ul>
+                <li class="api_github_itens">
+                  <img src="/assets/followers.svg" alt="seguidores">
+                  <h4 id="followers"></h4>
+                  <h4>Seguindores</h4>
 
-                    <li class="api_github_itens">
-                      <img src="/assets/repository.svg" alt="repositório">
-                      <h4 id="public_repos"></h4>
-                      <h4>Repositórios</h4>
-                    </li>
+                <li class="api_github_itens">
+                  <img src="/assets/following.svg" alt="seguindo">
+                  <h4 id="following"></h4>
+                  <h4>Seguindo</h4>
+                </li>
 
-                    <li class="api_github_itens">
-                      <img src="/assets/company.svg" alt="trabalho">
-                      <h4>DS² Studio</h4>
-                    </li>
+                <li class="api_github_itens">
+                  <img src="/assets/repository.svg" alt="repositório">
+                  <h4 id="public_repos"></h4>
+                  <h4>Repositórios</h4>
+                </li>
 
-                    <li class="api_github_itens">
-                      <img src="/assets/location.svg" alt="localidade">
-                      <h4 id="location">Belém</h4>
-                    </li>
+                <li class="api_github_itens">
+                  <img src="/assets/company.svg" alt="trabalho">
+                  <h4>DS² Studio</h4>
+                </li>
 
-                </ul>
-              </div>
+                <li class="api_github_itens">
+                  <img src="/assets/location.svg" alt="localidade">
+                  <h4 id="location">Belém</h4>
+                </li>
 
-              <div class="footer_card">
-                  <img class="logo_footer_card" src="/assets/logo.svg" alt="Logo_nome">
-                  <p>ROCKETSEAT</p>
-              </div>
+              </ul>
+            </div>
 
-            </section>
-          </div>   
+            <div class="footer_card">
+              <img class="logo_footer_card" src="/assets/logo.svg" alt="Logo_nome">
+              <p>ROCKETSEAT</p>
+            </div>
+
+          </section>
+        </div>
+        <div class="container_customizar">
+          <div class="customizar">
+            <h3>Customizar Rocketcard</h3>
+            <button class=button id="teste" onclick="test()">
+              <h2>Gerar background</h2>
+            </button>
+          </div>
           <div class="container_customizar">
             <div class="customizar">
-              <h3>Customizar Rocketcard</h3>
-              <button class=button id="teste" onclick="test()">
-                  <h2>Gerar background</h2>
+              <button class=button id="teste">
+                <a href="/Index.html" download="Rocketcard">
+                  <h2>Download Rocketcard</h2>
+                </a>
               </button>
             </div>
-            <div class="container_customizar">
-              <div class="customizar">
-                <button class=button id="teste" >
-                    <a href="/Index.html" download="Rocketcard"><h2>Download Rocketcard</h2></a>
-                </button>
-              </div>
           </div>
-       </div>
+        </div>
       </div>
-    </main>    
-   
-  </body>
+  </main>
+
+</body>
+
 </html>
